@@ -1,0 +1,109 @@
+# TeleShop Bot - PythonAnywhere Optimized Dependencies
+# Python 3.8+ required
+
+# Core Telegram Bot Framework
+python-telegram-bot==20.7
+
+# Environment Configuration
+python-dotenv==1.0.0
+
+# Security and Cryptography
+cryptography==41.0.7
+bcrypt==4.1.2
+
+# Database and Data Processing
+# SQLite3 is built-in with Python
+
+# Async Support
+aiofiles==23.2.1
+aiohttp==3.9.1
+
+# HTTP Requests for Blockchain API
+requests==2.31.0
+
+# Image Processing (for CAPTCHA generation)
+Pillow==10.1.0
+qrcode[pil]==7.4.2
+
+# Date and Time Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Logging Enhancement
+coloredlogs==15.0.1
+
+# Development and Testing Dependencies
+# unittest is built-in with Python
+# unittest.mock is built-in with Python 3.3+
+
+# Data Validation and Processing
+# decimal is built-in with Python
+# json is built-in with Python
+# re is built-in with Python
+# typing is built-in with Python 3.5+
+
+# System and File Operations
+# os is built-in with Python
+# sys is built-in with Python
+# pathlib is built-in with Python 3.4+
+# tempfile is built-in with Python
+# shutil is built-in with Python
+
+# Concurrency and Threading
+# threading is built-in with Python
+# asyncio is built-in with Python 3.4+
+
+# Math and Random Operations
+# math is built-in with Python
+# random is built-in with Python
+# secrets is built-in with Python 3.6+
+
+# String and Text Processing
+# string is built-in with Python
+# hashlib is built-in with Python
+
+# Time Operations
+# time is built-in with Python
+# datetime is built-in with Python
+
+# Logging
+# logging is built-in with Python
+
+# I/O Operations
+# io is built-in with Python
+
+# Collections and Data Structures
+# collections is built-in with Python
+# functools is built-in with Python
+
+# Optional: Production Deployment
+# gunicorn==21.2.0  # For webhook deployment
+# nginx  # Reverse proxy (system package)
+
+# Optional: Monitoring and Analytics
+# prometheus-client==0.19.0  # For metrics collection
+# psutil==5.9.6  # For system monitoring
+
+# Optional: Enhanced Database Support
+# psycopg2-binary==2.9.9  # For PostgreSQL (if migrating from SQLite)
+# pymongo==4.6.0  # For MongoDB support
+
+# Optional: Caching
+# redis==5.0.1  # For Redis caching
+
+# Optional: Message Queue
+# celery==5.3.4  # For background tasks
+
+# Development Tools (uncomment for development)
+# pytest==7.4.3  # Alternative testing framework
+# pytest-asyncio==0.21.1  # Async testing support
+# black==23.11.0  # Code formatter
+# flake8==6.1.0  # Code linter
+# mypy==1.7.1  # Type checker
+# coverage==7.3.2  # Code coverage
+
+# Base64 encoding (built-in)
+# base64
+
+# Hash functions (built-in)
+# hashlib

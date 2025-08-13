@@ -1,0 +1,12 @@
+{
+    "bot_name": "Kebabo Shop | 24/7",
+    "bot_description": "Best dd shop",
+    "admin_username": "tureqq",
+    "support_contact": "@tureqq",
+    "welcome_message": "Welcome to TeleShop!",
+    "currency_symbol": "zł",
+    "default_language": "en",
+    "maintenance_mode": false,
+    "max_orders_per_user": 10,
+    "min_balance_required": 0.0
+}
